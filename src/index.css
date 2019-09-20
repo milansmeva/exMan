@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css";
+
+.button{
+  margin:18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+ul{
+  padding: 0;
+  font-size: 24px
+}
+
+li {
+  list-style-type: none;
+  padding: 12px;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+li:first-child{
+  margin-top: 18px;
+  border-top: 1px solid rgb(192, 192, 192)
 }
